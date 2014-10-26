@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <!-- begin umeng string -->
+    <string name="online_config">在线参数</string>
+    <string name="make_crash">程序崩溃</string>
+    <string name="kv_event">多属性(K-V)事件</string>
+    <string name="normal_event">普通事件</string>
+    <string name="event_begin">事件开始</string>
+    <string name="event_end">事件结束</string>
+    <string name="event_duration">数值型统计</string>
+    <string name="page_stack">统计 Fragment 页面(Stack)</string>
+    <string name="page_tabs"> 统计 Fragment 页面( Tab )</string>
+    <string name="social_analytics">社交统计</string>
+    <string name="js_in_webview">Webview 统计</string>
+    <string name="flush_cache">手动发送数据</string>
+    <!-- end umeng string -->
+
+
+    <!-- begin article list -->
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">松开刷新数据</string>
+    <string name="last_refresh_time" formatted="false">上次更新时间: %d-%d %d:%d</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="pull_up_to_load">上拉加载更多</string>
+    <string name="release_up_to_load">释放加载更多</string>
+    <string name="pull_up_loading">正在加载</string>
+    <!-- end article list -->
+
+
+    <!-- app setting -->
+    <string name="app_account">账号</string>
+    <string name="setting_title_my_channel">我的频道</string>
+    <string name="setting_title_favotite">收藏夹</string>
+    <string name="app_others">其他</string>
+    <string name="setting_title_feedback">意见反馈</string>
+    <string name="setting_title_share">分享给朋友</string>
+    <string name="setting_title_recommend">推荐APP</string>
+    <string name="setting_title_help">帮助</string>
+    <string name="setting_title_licence">开源代码许可</string>
+    <string name="setting_title_about">关于</string>
+    <string name="general">通用</string>
+    <string name="setting_title_font_size">字体大小</string>
+    <string name="setting_title_clean_cache">清理缓存</string>
+    <string name="setting_title_mobile_traffic">移动流量</string>
+    <string name="setting_title_night_mode">夜间模式</string>
+    <string name="setting_summary_night_mode_on">已开启</string>
+    <string name="setting_summary_night_mode_off">已关闭</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_favor">收藏</string>
+    <!-- end setting -->
+
+    <!-- begin login -->
+    <string name="login_by_phone_or_email">邮箱或手机号登录</string>
+    <string name="phone_or_email_hint">邮箱/手机号</string>
+    <string name="password_hint">密码</string>
+    <string name="login_btn">登录</string>
+    <string name="register_btn">注册新帐号</string>
+    <string name="login_by_oauth">快捷登录</string>
+    <!-- end login -->
+
+</resources>

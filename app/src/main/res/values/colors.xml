@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#FF33B5E5</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <color name="page_bg">#f0f0f0</color>
+    <color name="font_color">#707070</color>
+
+    <!-- begin ActionBar -->
+    <color name="actionbar_bg">#fff</color>
+    <color name="actionbar_title_bg">#313131</color>
+    <color name="actionbar_normal">#fff</color>
+    <color name="actionbar_pressed">#d5d5d5</color>
+    <!-- end ActionBar -->
+
+    <!-- begin article list -->
+    <color name="list_bg">#f3f3f3</color>
+    <color name="title_color">#434343</color>
+    <color name="time_color">#949494</color>
+    <!-- end article list -->
+
+    <!-- begin menu -->
+    <color name="menu_layout_bg">#3a3f45</color>
+    <color name="menu_item_text_color">#bfc2c7</color>
+    <!-- end menu -->
+</resources>

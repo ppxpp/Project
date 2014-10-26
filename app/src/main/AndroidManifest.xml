@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.ppxpp.project" >
+
+    <!-- begin umeng Permission -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- end umeng Permission -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- begin umeng meta-data -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54436ca7fd98c5a658000973" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="AllChannel" />
+        <!-- end umeng meta-data -->
+
+        <activity
+            android:name="me.ppxpp.project.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="me.ppxpp.project.activity.SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:windowSoftInputMode="adjustResize"
+            android:name="me.ppxpp.project.activity.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="me.ppxpp.project.activity.FavorActivity"
+            android:label="@string/title_activity_favor" >
+        </activity>
+    </application>
+
+</manifest>

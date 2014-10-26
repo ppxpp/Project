@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_entries">
+        <item>小字体</item>
+        <item>中等字体</item>
+        <item>大字体</item>
+    </string-array>
+    <string-array name="font_size_entryVlaues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="mobile_traffic_entries">
+        <item>最佳效果(下载大图)</item>
+        <item>较省流量(智能下载)</item>
+        <item>及省流量(不下载图)</item>
+    </string-array>
+    <string-array name="mobile_traffic_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/app_account">
+        <Preference android:key="account"
+            android:title="ppxpp"
+            android:summary="from QQ platform"/>
+        <Preference android:key="channel"
+            android:title="@string/setting_title_my_channel"/>
+        <Preference android:key="flavotite"
+            android:title="@string/setting_title_favotite"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/general">
+        <ListPreference
+            android:key="font_size"
+            android:title="@string/setting_title_font_size"
+            android:entries="@array/font_size_entries"
+            android:entryValues="@array/font_size_entryVlaues"
+            android:defaultValue="0"
+            android:summary="small"/>
+        <ListPreference
+            android:key="mobile_traffic"
+            android:title="@string/setting_title_mobile_traffic"
+            android:entries="@array/mobile_traffic_entries"
+            android:entryValues="@array/mobile_traffic_entryValues"
+            android:defaultValue="0"
+            android:summary="最佳效果(下载大图)"/>
+        <Preference android:key="clean_cache"
+            android:title="@string/setting_title_clean_cache"
+            android:summary="current cache is 18.9MB"/>
+        <SwitchPreference
+            android:key="nighe_mode"
+            android:title="@string/setting_title_night_mode"
+            android:summaryOn="@string/setting_summary_night_mode_on"
+            android:summaryOff="@string/setting_summary_night_mode_off"
+            />
+        <Preference android:key="share"
+            android:title="@string/setting_title_share"/>
+        <Preference android:key="feedback"
+            android:title="@string/setting_title_feedback"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/app_others">
+        <Preference android:key="recommend"
+            android:title="@string/setting_title_recommend"/>
+        <Preference android:key="help"
+            android:title="@string/setting_title_help"/>
+        <Preference android:key="licence"
+            android:title="@string/setting_title_licence"/>
+        <Preference android:key="about"
+            android:title="@string/setting_title_about"/>
+    </PreferenceCategory>
+</PreferenceScreen>

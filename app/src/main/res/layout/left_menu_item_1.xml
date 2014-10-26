@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:background="#3a3e43"
+    android:layout_height="21dp">
+    <TextView
+        android:id="@+id/menu_title"
+        android:text="首页"
+        style="@style/menuItemTitle"
+        android:textSize="10sp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

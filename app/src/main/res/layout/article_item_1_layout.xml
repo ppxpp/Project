@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="@drawable/article_item_bg"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/picture"
+            android:src="@drawable/article_picture_for_debug"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true"
+            android:layout_width="80dp"
+            android:layout_height="75dp" />
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/picture"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/title"
+                android:text="创业者必须面对的6种现实"
+                style="@style/articleListTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/time"
+                android:text="4小时前"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/title"
+                style="@style/articleListTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/favor"
+                android:text="5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/title"
+                android:drawableRight="@drawable/ic_unliked"
+                android:layout_toRightOf="@id/time"
+                style="@style/articleListTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/comment"
+                android:text="5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/title"
+                android:drawableRight="@drawable/ic_comment"
+                android:layout_toRightOf="@id/favor"
+                style="@style/articleListTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
